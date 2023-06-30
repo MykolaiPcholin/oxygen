@@ -1,0 +1,12 @@
+.btn {
+    height: 4.5rem;
+    width: max-content;
+    border-top: 1px solid #d6d2ce;
+    border-bottom: 1px solid #d6d2ce;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 1rem;
+    text-transform: uppercase;
+    color: var(--color-black);
+    font-weight: var(--fw-300);
+}

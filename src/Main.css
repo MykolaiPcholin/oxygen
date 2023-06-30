@@ -1,0 +1,21 @@
+.main {
+    background-color: var(--main-white);
+    width: 100%;
+    max-width: 100vw;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+.title {
+    color: var(--title-color);
+}
+
+.title, .page-title {
+    font-weight: var(--fw-400);
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+.page-title {
+    color: var(--color-brown);
+}

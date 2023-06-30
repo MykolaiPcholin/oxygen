@@ -1,0 +1,28 @@
+.work {
+    gap: 2rem;
+    width: 30%;
+}
+
+.work-title, .work-size, .work-price {
+    color: var(--color-black);
+    font-weight: var(--fw-300);
+    text-transform: uppercase;
+}
+
+.work-title {
+    font-size: 3.2rem;
+}
+
+.work-size {
+    font-size: 1.6rem;
+}
+
+.work-price {
+    color: #565656;
+    font-size: 2.4rem;
+}
+
+.work-details {
+    justify-content: space-between;
+    align-items: center;
+}

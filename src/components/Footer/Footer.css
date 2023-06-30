@@ -1,0 +1,31 @@
+.footer {
+    background-color: var(--color-gray);
+    justify-content: space-between;
+    padding: 8rem 13rem 4rem 13rem;
+}
+
+.footer-links {
+    gap: 4rem;
+}
+
+.footer-links__column {
+    gap: 2rem;
+}
+
+.footer-links__column-item {
+    font-weight: var(--fw-300);
+    color: var(--color-black);
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.footer-links__column-media {
+    gap: 1rem;
+    align-items: center;
+}
+
+.footer-links__column-media p {
+    font-size: 1.6rem;
+    font-weight: var(--fw-300);
+    color: var(--color-black);
+}

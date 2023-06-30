@@ -1,0 +1,13 @@
+.interior {
+    padding: var(--padding);
+    gap: 4.6rem;
+}
+
+.interior-head {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.interior-head .description {
+    width: 50%;
+}

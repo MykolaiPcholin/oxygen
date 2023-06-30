@@ -1,0 +1,13 @@
+.home-interior {
+    padding: var(--padding);
+    gap: 4.6rem;
+}
+
+.home-interior__description {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-interior__description .description {
+    width: 50%;
+}

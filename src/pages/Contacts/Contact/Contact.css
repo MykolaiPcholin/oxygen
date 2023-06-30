@@ -1,0 +1,20 @@
+.contact {
+    gap: 3rem;
+    align-items: center;
+}
+
+.contact-img {
+    width: 10rem;
+}
+
+.contact-name {
+    font-size: 4rem;
+    color: var(--color-black);
+    font-weight: var(--fw-400);
+    transition: all 1s ease;
+}
+
+.contact-name:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+}

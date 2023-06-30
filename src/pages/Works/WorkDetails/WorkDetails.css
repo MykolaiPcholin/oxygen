@@ -1,0 +1,39 @@
+.work-head {
+    gap: 6rem;
+    width: 100%;
+}
+
+.work-head__img {
+    width: 40%;
+}
+
+.work-head__main {
+    gap: 4.6rem;
+    justify-content: space-between;
+}
+
+.work-head__characters {
+    color: var(--color-black);
+    font-size: 2rem;
+    font-weight: var(--fw-400);
+}
+
+.work-head__characters strong {
+    text-transform: uppercase;
+}
+
+.work-head__order {
+    justify-content: space-between;
+}
+
+.order {
+    gap: 2rem;
+    align-items: center;
+}
+
+.order-img {
+    width: 6rem;
+    border: 1px solid var(--color-black);
+    padding: .7rem;
+    transition: all 1s ease;
+}

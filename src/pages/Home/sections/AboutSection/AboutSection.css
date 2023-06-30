@@ -1,0 +1,23 @@
+.home-about {
+    padding: var(--padding);
+    gap: 6rem;
+}
+
+.home-about__description{
+    gap: 6rem;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: 275;
+    font-size: 1.8rem;
+    color: var(--color-black);
+    width: 50%;
+    margin-left: 50%;
+}
+
+.description {
+    color: var(--color-black);
+    font-size: 2rem;
+    font-weight: var(--fw-300);
+}

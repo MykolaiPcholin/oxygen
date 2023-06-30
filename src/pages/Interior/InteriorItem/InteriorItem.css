@@ -1,0 +1,26 @@
+.interior-item {
+    min-width: 15rem;
+    min-height: 15rem;
+    width: 30%;
+    background-size: cover;
+    padding-top: 30%;
+    position: relative;
+}
+
+.interior-item__description {
+    display: none;
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+    background: rgba(39, 39, 39, 0.3);
+    color: var(--color-white);
+    font-weight: var(--fw-400);
+    font-size: 2rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.interior-item:hover .interior-item__description{
+    display: block;
+}

@@ -1,0 +1,12 @@
+.home-works__list-item {
+    width: 30%;
+    gap: 2rem;
+}
+
+.home-works__list-item p {
+    font-size: 3.2rem;
+    line-height: 3.8rem;
+    text-transform: uppercase;
+    color: var(--color-black);
+    font-weight: var(--fw-300);
+}
