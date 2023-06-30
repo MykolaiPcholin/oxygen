@@ -29,3 +29,34 @@
     font-weight: var(--fw-300);
     color: var(--color-black);
 }
+
+@media screen and (max-width: 461px) { 
+    .footer {
+        padding: 2rem;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .footer-links:first-child {
+        display: none;
+    }
+
+    .footer-logo {
+        margin: 0 40%;
+    }
+
+    .footer-links__column-item {
+        font-size: 1.6rem;
+    }
+
+    .footer-links:nth-child(3) {
+        margin: 0 10%;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .footer-links__column-media p {
+        font-size: 1.2rem;
+    }
+}

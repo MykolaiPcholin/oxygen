@@ -16,3 +16,18 @@
     color: var(--color-black);
     font-size: 2rem;
 }
+
+@media screen and (max-width: 461px) { 
+    .header {
+        max-width: 46rem;
+        padding: 2rem;
+    }
+
+    .header-nav {
+        gap: 2rem;
+    }
+    
+    .header-nav__item {
+        font-size: 1.2rem;
+    }
+}

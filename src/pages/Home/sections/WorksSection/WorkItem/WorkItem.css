@@ -10,3 +10,10 @@
     color: var(--color-black);
     font-weight: var(--fw-300);
 }
+
+@media screen and (max-width: 461px) {
+    .home-works__list-item {
+        width: auto;
+        min-width: 15rem;
+    }
+}

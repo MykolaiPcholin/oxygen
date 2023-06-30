@@ -2,3 +2,9 @@
     padding: var(--padding);
     gap: 4.6rem;
 }
+
+@media screen and (max-width: 461px) { 
+    .section {
+        padding: var(--420-padding);
+    }
+}

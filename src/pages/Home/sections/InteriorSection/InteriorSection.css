@@ -11,3 +11,19 @@
 .home-interior__description .description {
     width: 50%;
 }
+
+@media screen and (max-width: 461px) {
+    .home-interior {
+        padding: 2rem;
+        gap: 2rem;
+    }
+
+    .home-interior__description {
+        flex-wrap: wrap-reverse;
+        gap: 2rem;
+    }
+
+    .home-interior__description .description {
+        width: 80%;
+    }
+}

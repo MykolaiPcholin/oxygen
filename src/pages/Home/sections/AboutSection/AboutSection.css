@@ -21,3 +21,20 @@
     font-size: 2rem;
     font-weight: var(--fw-300);
 }
+
+@media screen and (max-width: 461px) { 
+    .home-about {
+        flex-wrap: wrap;
+        padding: var(--420-padding);
+    }
+
+    .quote {
+        margin-left: 20%;
+        width: auto;
+    }
+
+    .home-about__banner {
+        width: 100%;
+        max-width: 45rem;
+    }
+}
