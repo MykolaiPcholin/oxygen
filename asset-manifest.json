@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/oxygen/static/css/main.073c9b0a.css",
+    "main.js": "/oxygen/static/js/main.67692e8d.js",
+    "static/js/787.4a625475.chunk.js": "/oxygen/static/js/787.4a625475.chunk.js",
+    "static/media/logo.svg": "/oxygen/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/oxygen/index.html",
+    "main.073c9b0a.css.map": "/oxygen/static/css/main.073c9b0a.css.map",
+    "main.67692e8d.js.map": "/oxygen/static/js/main.67692e8d.js.map",
+    "787.4a625475.chunk.js.map": "/oxygen/static/js/787.4a625475.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.67692e8d.js"
+  ]
+}
