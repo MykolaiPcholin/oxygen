@@ -5,3 +5,16 @@
 .about-media {
     width: 40%;
 }
+
+@media screen and (max-width: 461px) { 
+    .mod {
+        width: 95%;
+        white-space: pre-wrap;
+        word-break: break-all;
+        font-size: 1.4rem;
+    }
+
+    .about-media {
+        width: 80%;
+    }
+}

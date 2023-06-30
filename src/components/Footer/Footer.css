@@ -36,6 +36,8 @@
         flex-wrap: wrap;
         align-items: center;
         gap: 3rem;
+        width: 100%;
+        max-width: 460px;
     }
 
     .footer-links:first-child {
