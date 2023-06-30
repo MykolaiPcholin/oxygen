@@ -39,3 +39,43 @@
     font-weight: var(--fw-400);
     min-width: 5rem;
 }
+
+@media screen and (max-width: 461px) { 
+    .order-item {
+        padding: 1.5rem;
+        gap: 2rem;
+    }
+
+    .order-item__img {
+        width: auto;
+        max-width: 10rem;
+    }
+
+    .order-item__product {
+        gap: 1rem;
+    }
+
+    .order-item__title {
+        font-size: 1.8rem;
+    }
+
+    .order-item__counter {
+        width: 70%;
+    }
+
+    .counter {
+        width: 100%;
+    }
+
+    .order-footer {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .order-item__btn {
+        font-size: 1.5rem;
+        min-width: 4rem;
+        width: max-content;
+    }
+}

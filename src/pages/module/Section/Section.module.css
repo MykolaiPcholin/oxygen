@@ -1,6 +1,8 @@
 .section {
     padding: var(--padding);
     gap: 4.6rem;
+    justify-content: start;
+    min-height: 65vh;
 }
 
 @media screen and (max-width: 461px) { 

@@ -37,3 +37,18 @@
     padding: .7rem;
     transition: all 1s ease;
 }
+
+@media screen and (max-width: 461px) { 
+    .work-head {
+        flex-wrap: wrap;
+    }
+
+    .work-head__img {
+        width: 100%;
+        max-width: 40rem;
+    }
+
+    .work-head__order {
+        align-items: center;
+    }
+}

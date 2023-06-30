@@ -49,8 +49,10 @@ const OrderItem = ( props ) => {
                     <p className='description'>{props.counter}</p>
                     <button className='order-item__btn' onClick={(e) => incrementCounter(e)}>+</button>
                 </div>
-                <p className='order-item__title'><strong>Cost:</strong> {Number(props.price) * Number(props.counter)}</p>
-                <button className='order-item__btn' onClick={(e) => removeOrder(e)}>remove</button>
+                <div className='order-footer column'>
+                    <p className='order-item__title'><strong>Cost:</strong> {Number(props.price) * Number(props.counter)}$</p>
+                    <button className='order-item__btn' onClick={(e) => removeOrder(e)}>remove</button>
+                </div>
             </div>
         </div>
     );
