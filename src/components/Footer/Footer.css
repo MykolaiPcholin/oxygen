@@ -38,14 +38,15 @@
         gap: 3rem;
         width: 100%;
         max-width: 460px;
+        justify-content: center;
     }
 
     .footer-links:first-child {
         display: none;
     }
 
-    .footer-logo {
-        margin: 0 40%;
+    .footer-logo img {
+        max-width: 5rem;
     }
 
     .footer-links__column-item {

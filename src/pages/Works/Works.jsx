@@ -2,7 +2,6 @@ import React from 'react';
 import Section from '../module/Section/Section';
 import ListContainer from '../module/ListContainer/ListContainer';
 import Work from './Work/Work';
-import './Works.css';
 import { useSelector } from 'react-redux';
 import { Outlet, useLocation } from 'react-router-dom';
 

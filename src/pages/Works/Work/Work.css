@@ -26,3 +26,17 @@
     justify-content: space-between;
     align-items: center;
 }
+
+@media screen and (max-width: 461px) { 
+    .work-title {
+        font-size: 2rem;
+    }
+
+    .work-size {
+        font-size: 1.2rem;
+    }
+
+    .work-price {
+        font-size: 1.6rem;
+    }
+}

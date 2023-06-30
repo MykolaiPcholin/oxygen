@@ -10,3 +10,10 @@
     color: var(--color-black);
     font-weight: var(--fw-300);
 }
+
+@media screen and (max-width: 461px) { 
+    .btn {
+        font-size: 1.2rem;
+        height: auto;
+    }
+}
