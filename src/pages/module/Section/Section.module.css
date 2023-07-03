@@ -18,9 +18,7 @@
     .section {
         padding: var(--420-padding);
         width: 100%;
-        max-width: 72rem;
-        height: auto;
+        max-width: 76rem;
         gap: 2rem;
-        min-height: auto;
     }
 }

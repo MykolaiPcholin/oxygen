@@ -18,3 +18,15 @@
         width: auto;
     }
 }
+
+@media screen and (min-width: 461px) and (max-width: 761px) { 
+    .interior-head {
+        align-items: first baseline;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    .interior-head .description {
+        width: auto;
+    }
+}

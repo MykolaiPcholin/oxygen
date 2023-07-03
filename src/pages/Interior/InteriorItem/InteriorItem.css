@@ -31,3 +31,10 @@
         height: 20rem;
     }
 }
+
+@media screen and (min-width: 461px) and (max-width: 761px) { 
+    .interior-item {
+        width: 45%;
+        height: 30rem;
+    }
+}

@@ -40,3 +40,21 @@
         font-size: 1.6rem;
     }
 }
+
+@media screen and (min-width: 461px) and (max-width: 761px) { 
+    .work {
+        width: 40%;
+    }
+
+    .work-title {
+        font-size: 2.3rem;
+    }
+
+    .work-size {
+        font-size: 1.5rem;
+    }
+
+    .work-price {
+        font-size: 1.8rem;
+    }
+}

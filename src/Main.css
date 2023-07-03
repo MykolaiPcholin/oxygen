@@ -33,3 +33,17 @@
         font-size: 3rem;
     }
 }
+
+@media screen and (min-width: 461px) and (max-width: 761px) { 
+    .main {
+        max-width: 760px;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .page-title {
+        font-size: 3rem;
+    }
+}

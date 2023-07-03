@@ -20,7 +20,15 @@
 }
 
 @media screen and (max-width: 461px) { 
+    .contact-img {
+        max-width: 6rem;
+    }
+    .contact-name {
+        font-size: 2.5rem;
+    }
+}
 
+@media screen and (min-width: 461px) and (max-width: 761px) { 
     .contact-img {
         max-width: 6rem;
     }

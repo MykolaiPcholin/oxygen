@@ -52,3 +52,19 @@
         align-items: center;
     }
 }
+
+@media screen and (min-width: 461px) and (max-width: 761px) { 
+    .work-head {
+        flex-wrap: wrap;
+        margin: 0 4rem;
+    }
+
+    .work-head__img {
+        width: 100%;
+        max-width: 40rem;
+    }
+
+    .work-head__order {
+        align-items: center;
+    }
+}
