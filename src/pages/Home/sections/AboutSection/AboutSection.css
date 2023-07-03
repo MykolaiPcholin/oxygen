@@ -43,3 +43,14 @@
         font-size: 1.4rem;
     }
 }
+
+@media screen and (min-width: 461px) and (max-width: 761px) { 
+    .home-about {
+        flex-wrap: wrap;
+        padding: var(--420-padding);
+    }
+
+    .home-about__banner {
+        margin: 0 auto;
+    }
+}

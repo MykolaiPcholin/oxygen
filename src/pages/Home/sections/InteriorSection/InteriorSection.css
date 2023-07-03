@@ -27,3 +27,12 @@
         width: 80%;
     }
 }
+
+@media screen and (min-width: 461px) and (max-width: 761px) { 
+    
+    .home-interior {
+        padding: var(--420-padding);
+        align-items: center;
+        gap: 2rem;
+    }
+}

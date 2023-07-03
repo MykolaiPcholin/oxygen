@@ -8,3 +8,10 @@
         padding-top: 23rem;
     }
 }
+
+@media screen and (min-width: 461px) and (max-width: 761px) { 
+    .home {
+        max-width: 760px;
+        padding-top: 60vw;
+    }
+}

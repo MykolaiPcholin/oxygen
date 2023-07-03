@@ -41,3 +41,20 @@
         max-width: 3rem;
     }
 }
+
+
+@media screen and (min-width: 461px) and (max-width: 761px) { 
+    .header {
+        width: 100%;
+        max-width: 760px;
+        padding: 2rem;
+    }
+
+    .header-nav {
+        gap: 1.5rem;
+    }
+    
+    .header-nav__item {
+        font-size: 1.8rem;
+    }
+}

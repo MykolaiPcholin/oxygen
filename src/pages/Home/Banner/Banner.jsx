@@ -20,7 +20,7 @@ const Banner = () => {
             } else {
                 setImageCounter(counter => counter + 1);
             }
-        }, 2500);
+        }, 5000);
         return () => clearInterval(interval);
     }, [imageCounter]);
 

@@ -13,3 +13,14 @@
         gap: 2rem;
     }
 }
+
+@media screen and (min-width: 461px) and (max-width: 761px) { 
+    .section {
+        padding: var(--420-padding);
+        width: 100%;
+        max-width: 72rem;
+        height: auto;
+        gap: 2rem;
+        min-height: auto;
+    }
+}

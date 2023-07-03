@@ -17,3 +17,11 @@
         min-width: 15rem;
     }
 }
+
+@media screen and (min-width: 461px) and (max-width: 761px) { 
+    .home-works__list-item {
+        width: auto;
+        min-width: 15rem;
+        max-width: 35vw;
+    }
+}
