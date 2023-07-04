@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Bag.css';
 import Section from '../module/Section/Section';
 import ListContainer from '../module/ListContainer/ListContainer'
 import OrderItem from './OrderItem/OrderItem';
 import { useSelector } from 'react-redux';
+import Form from './Form/Form';
 
 const Bag = () => {
 
@@ -12,6 +13,18 @@ const Bag = () => {
     let elements = [];
 
     let total_cost = 0;
+
+    const [viewForm, setViewForm] = useState('none');
+
+    const closeForm = ( e ) => {
+        e.preventDefault();
+        setViewForm('none');
+    }
+
+    const showForm = ( e ) => {
+        e.preventDefault();
+        setViewForm('view');
+    }
 
     if(Object.keys(ORDER_LIST).length === 0 || ORDER_LIST.orders.length === 0) {
 
@@ -35,10 +48,14 @@ const Bag = () => {
             null
         );
         elements.push(
-            <button className='make-btn' onClick={(e) => alert(e.target.value)}>
+            <button className='make-btn' onClick={(e) => showForm(e)}>
                 make an order
-            </button>)
-                
+            </button>);
+        elements.push(
+            <div className={`view-form ${viewForm} column`}>
+                <Form />
+                <button className='btn-close' onClick={(e) => closeForm(e)}>X</button>
+            </div>)
     }
 
     return (
