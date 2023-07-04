@@ -1,12 +1,15 @@
 import React from 'react';
 import Button from '../../module/Button/Button';
 import './Work.css';
+import { Link } from 'react-router-dom';
 
 const WorkItem = ( props ) => {
 
     return (
             <div className='work column'>
-                <img src={props.src} alt={props.title} className='work-img' />
+                <Link to={`/oxygen/works/${props.id}`}>
+                    <img src={props.src} alt={props.title} className='work-img' />
+                </Link>
                 <h2 className='work-title'>{props.title}</h2>
                 <p className='work-size'>{props.size}</p>
                 <div className='work-details row'>
