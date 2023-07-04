@@ -6,13 +6,24 @@ import OrderItem from './OrderItem/OrderItem';
 import { useSelector } from 'react-redux';
 import Form from './Form/Form';
 
+export const TOTAL_COST = ( ) => {
+    let total = 0;
+    const ORDER_LIST = useSelector((state) => state.orders);
+    if(Object.keys(ORDER_LIST).length === 0 || ORDER_LIST.orders.length === 0 || ORDER_LIST.orders === Array(0)) {
+        return total
+    } else {
+        ORDER_LIST.orders.forEach((element) => {
+            total += Number(element.price) * Number(element.counter)
+        })
+        return total;
+    }
+}
+
 const Bag = () => {
 
     const ORDER_LIST = useSelector((state) => state.orders);
 
     let elements = [];
-
-    let total_cost = 0;
 
     const [viewForm, setViewForm] = useState('none');
 
@@ -26,18 +37,15 @@ const Bag = () => {
         setViewForm('view');
     }
 
-    if(Object.keys(ORDER_LIST).length === 0 || ORDER_LIST.orders.length === 0) {
+    console.log(ORDER_LIST);
 
+    if(Object.keys(ORDER_LIST).length === 0 || ORDER_LIST.orders.length === 0 || ORDER_LIST.orders === Array(0)) {
         elements = <h2 className='title'>Your order list is empty.</h2>
-
     } else {
-
-        ORDER_LIST.orders.forEach((element) => {
-            total_cost += Number(element.price) * Number(element.counter)
-        })
+        const cost = TOTAL_COST();
         elements.push(<div className='total-cost row'>
         <h1 className='page-title'>Total cost:</h1>
-        <p className='title'>{total_cost}$</p>
+        <p className='title'>{cost}$</p>
     </div>)
 
         ORDER_LIST.orders.filter((element) =>  

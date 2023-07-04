@@ -2,6 +2,10 @@ const INITIAL_STATE = {
     orders: Array(0)
 };
 
+const CLEAR_STATE = {
+    orders: Array(0)
+};
+
 const orderReducer = ( state = INITIAL_STATE, action) => {
 
     const uniqElem = ( array, elem ) => {
@@ -55,6 +59,12 @@ const orderReducer = ( state = INITIAL_STATE, action) => {
 
         case 'decrement': {
             return {orders: state.orders.filter((element) => Number(element.id) === Number(action.payload.id) ? {...element, counter: element.counter === 0 ? 0 : element.counter--} : element)};
+        }
+
+        case 'clear': {
+            return {
+                orders: []
+            };
         }
 
         default: {

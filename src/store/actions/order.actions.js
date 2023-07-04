@@ -25,3 +25,10 @@ export const decrement = ( order ) => {
         payload: order
     }
 }
+
+export const clearOrder = ( order ) =>  {
+    return {
+        type: 'clear', 
+        payload: order
+    }
+}
