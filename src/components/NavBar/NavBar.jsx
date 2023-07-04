@@ -3,8 +3,11 @@ import { Link } from 'react-router-dom';
 import './NavBar.css';
 import logo from './img/logo.svg';
 import bag from './img/bag.svg';
+import { useSelector } from 'react-redux/es/hooks/useSelector';
 
 const NavBar = () => {
+
+    const ORDER_LIST = useSelector((state) => state.orders);
 
     useEffect(() => {
         console.log('page load');
@@ -22,6 +25,7 @@ const NavBar = () => {
                 <Link to='oxygen/contacts' className='header-nav__item'>Contacts</Link>
             </nav>
             <Link to='oxygen/bag' className='bag-logo'>
+                <p className='bag-logo__count'>{ORDER_LIST.orders.length}</p>
                 <img src={bag} alt='bag logo' className='bag-logo__img' />
             </Link>
         </header>
