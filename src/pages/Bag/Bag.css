@@ -2,3 +2,13 @@
     width: 100%;
     justify-content: space-between;
 }
+
+.make-btn {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    border: none;
+    font-weight: 700;
+}

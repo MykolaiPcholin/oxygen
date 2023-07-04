@@ -27,9 +27,18 @@ const Bag = () => {
         <p className='title'>{total_cost}$</p>
     </div>)
 
-        ORDER_LIST.orders.filter((element) =>  Number(element.id) >= 0 ? elements.push(<OrderItem key={element.id + Math.random()} {...element}/>)
-        : null
+        ORDER_LIST.orders.filter((element) =>  
+            Number(element.id) >= 0 
+                ? 
+            elements.push(<OrderItem key={element.id + Math.random()} {...element}/>)
+                : 
+            null
         );
+        elements.push(
+            <button className='make-btn' onClick={(e) => alert(e.target.value)}>
+                make an order
+            </button>)
+                
     }
 
     return (

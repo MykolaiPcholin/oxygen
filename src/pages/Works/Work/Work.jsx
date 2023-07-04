@@ -7,7 +7,7 @@ const WorkItem = ( props ) => {
 
     return (
             <div className='work column'>
-                <Link to={`/oxygen/works/${props.id}`}>
+                <Link to={`/oxygen/works/${props.id}`} className='work-link'>
                     <img src={props.src} alt={props.title} className='work-img' />
                 </Link>
                 <h2 className='work-title'>{props.title}</h2>

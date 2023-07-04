@@ -3,6 +3,14 @@
     width: 30%;
 }
 
+.work-link {
+    display: block;
+}
+
+.work-img {
+    width: 100%;
+}
+
 .work-title, .work-size, .work-price {
     color: var(--color-black);
     font-weight: var(--fw-300);
