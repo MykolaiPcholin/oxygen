@@ -47,12 +47,12 @@ const Form = () => {
             "userComment": orderDetails.userComment,
             "orderItems": orderItems
         }
-        await fetch("https://dbviewer.herokuapp.com/api/set-order", {
-            method: "POST",
-            headers: {'content-type': 'application/json'},
-            body: JSON.stringify(ORDER),
-        });
-        dispatch(clearOrder());
+        // await fetch("https://dbviewer.herokuapp.com/api/set-order", {
+        //     method: "POST",
+        //     headers: {'content-type': 'application/json'},
+        //     body: JSON.stringify(ORDER),
+        // });
+        // dispatch(clearOrder());
         resetForm();
     }
 
